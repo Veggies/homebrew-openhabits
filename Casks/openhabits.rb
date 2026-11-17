@@ -17,7 +17,7 @@ cask "openhabits" do
     strategy :github_releases
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "OpenHabits.app"
 
